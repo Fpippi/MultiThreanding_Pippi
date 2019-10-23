@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:MultiThreanding_Pippi"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#FFFD0000">
+        <Label x:Name="lbl_risultato" Content="Risultato =" HorizontalAlignment="Left" Margin="10,99,0,0" VerticalAlignment="Top" Width="202" Height="53" Foreground="#FFD9FF00"/>
+        <Button x:Name="Btn_task" Content="Button" HorizontalAlignment="Left" Margin="120,223,0,0" VerticalAlignment="Top" Width="117" Height="49" Click="Btn_task_Click"/>
+
     </Grid>
 </Window>
